@@ -4,9 +4,6 @@ import bangDream from './assets/BanGDream&ACSR.jpeg'
 console.log(bangDream)
 
 const div = document.getElementById('app')
-// div.innerHTML = `
-//   <img src="${bangDream}">
-// `
 
 const button = document.createElement('button')
 button.innerText = '懒加载'
